@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Shadow Layer -->
+    <item android:bottom="2dp"> <!-- Mengurangi ketebalan shadow -->
+        <shape>
+            <solid android:color="#80000000" /> <!-- Warna shadow (lebih ringan) -->
+            <corners android:radius="20dp" /> <!-- Radius lebih kecil agar lebih hemat ruang -->
+        </shape>
+    </item>
+
+    <!-- Main Layer -->
+    <item>
+        <shape>
+            <solid android:color="#FFFFFF" /> <!-- Warna utama tetap putih -->
+            <corners android:radius="20dp" /> <!-- Sesuai dengan shadow -->
+        </shape>
+    </item>
+</layer-list>

@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">space-Tubes Pemograman Mobile</string>
+    <string name="logo_description">Logo</string>
+    <string name="profile_icon">Profile Icon</string>
+    <string name="search_icon">Search Icon</string>
+    <string name="to_do_list">To-Do List</string>
+    <string name="add_button">Add Item</string>
+    <string name="arrow_button">Arrow Up</string>
+    <string name="add_note">Add Note</string>
+    <string name="note_title">Judul Catatan</string>
+    <string name="note_summary">Ringkasan singkat catatan</string>
+    <string name="checkBox">checkbox</string>
+    <string name="taskName">task Name</string>
+    <string name="dueDat">deadline</string>
+    <string name="search_hint">Cari sesuatu...</string>
+    <string name="on_going">Sedang Berlangsung</string>
+    <string name="completed">Sudah Selesai</string>
 </resources>
