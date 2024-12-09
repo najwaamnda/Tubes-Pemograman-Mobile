@@ -152,6 +152,7 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 
+    <!-- Bottom Navigation -->
     <LinearLayout
         android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"
@@ -160,46 +161,62 @@
         android:gravity="center"
         android:padding="8dp"
         android:background="#232931"
-        app:layout_constraintBottom_toBottomOf="parent">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
 
+        <!-- To-do List Button -->
         <ImageButton
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:src="@drawable/todo"
             android:contentDescription="To-do List"
-            android:layout_marginHorizontal="16dp"
+            android:layout_marginStart="16dp"
             android:background="?attr/selectableItemBackgroundBorderless" />
 
-        <ImageButton
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:src="@drawable/kalender"
-            android:contentDescription="Calendar"
-            android:layout_marginHorizontal="16dp"
-            android:background="?attr/selectableItemBackgroundBorderless" />
+        <!-- Spacer -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
 
+        <!-- Pomodoro Timer Button -->
         <ImageButton
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:src="@drawable/pmdr"
             android:contentDescription="Pomodoro Timer"
-            android:layout_marginHorizontal="16dp"
+            android:layout_marginStart="16dp"
             android:background="?attr/selectableItemBackgroundBorderless" />
 
+        <!-- Spacer -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!-- Notes Button -->
         <ImageButton
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:src="@drawable/note"
             android:contentDescription="Notes"
-            android:layout_marginHorizontal="16dp"
+            android:layout_marginStart="16dp"
             android:background="?attr/selectableItemBackgroundBorderless" />
 
+        <!-- Spacer -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!-- Background Change Button -->
         <ImageButton
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:src="@drawable/bgchange"
             android:contentDescription="Background Change"
-            android:layout_marginHorizontal="16dp"
+            android:layout_marginStart="16dp"
             android:background="?attr/selectableItemBackgroundBorderless" />
     </LinearLayout>
 
