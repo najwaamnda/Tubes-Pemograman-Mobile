@@ -2,7 +2,12 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+<<<<<<< lia
     <color name="gray">#808080</color>
     <color name="abu">#474747</color>
     <color name="header">#232931</color>
+=======
+    <color name="purple_500">#6200EE</color>
+    <color name="teal_700">#018786</color>
+>>>>>>> master
 </resources>
