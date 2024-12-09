@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/theme3"
+    android:orientation="vertical">
+
+    <!-- Header: always at the top, not inside CardView -->
+    <include
+        android:id="@+id/includeHeader"
+        layout="@layout/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- RecyclerView untuk menampilkan catatan -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvNotes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:paddingTop="8dp"
+        android:scrollbars="vertical" />
+
+    <!-- Pesan ketika tidak ada catatan -->
+    <TextView
+        android:id="@+id/tvNoNotesMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="No Notes Available"
+        android:textColor="@color/gray"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <!-- Tombol untuk menambahkan catatan -->
+    <Button
+        android:id="@+id/btnAddNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/abu"
+        android:text="Add New Note"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+</LinearLayout>

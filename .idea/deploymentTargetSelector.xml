@@ -5,6 +5,12 @@
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
+<<<<<<< lia
+      <SelectionState runConfigName="NotesActivity">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+=======
+>>>>>>> master
     </selectionStates>
   </component>
 </project>
