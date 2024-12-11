@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.ww.space_tubespemogramanmobile"
-    compileSdk = 34
+    compileSdk = 35
 
     buildFeatures {
         viewBinding = true
@@ -15,7 +15,7 @@ android {
     defaultConfig {
         applicationId = "com.ww.space_tubespemogramanmobile"
         minSdk = 27
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 

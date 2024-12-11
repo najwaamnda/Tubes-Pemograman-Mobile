@@ -46,7 +46,7 @@ class NotesActivity : AppCompatActivity() {
         // Add note button click listener
         binding.btnAddNote.setOnClickListener {
             val intent = Intent(this, AddNoteActivity::class.java)
-            startForResult.launch(intent)
+            startActivity(intent)
         }
 
         // Update the visibility of "No Notes" message

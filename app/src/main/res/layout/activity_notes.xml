@@ -6,11 +6,11 @@
     android:orientation="vertical">
 
     <!-- Header: always at the top, not inside CardView -->
-    <include
+    <!--<include
         android:id="@+id/includeHeader"
         layout="@layout/header"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content" />-->
 
     <!-- RecyclerView untuk menampilkan catatan -->
     <androidx.recyclerview.widget.RecyclerView
